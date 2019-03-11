@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import Sidebar from '@/views/common/sidebar';
-import Header from '@/views/common/header';
+import Sidebar from '@/views/layout/sidebar';
+import Header from '@/views/layout/header';
 
 export default {
     components: {
