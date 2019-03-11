@@ -1,0 +1,14 @@
+.idea
+.idea/
+.vscode
+.project
+.DS_Store
+
+dist
+dist/*
+node_modules/
+
+npm-debug.log
+src/config/*.tmp
+package-lock.json
+src/config/env.js
