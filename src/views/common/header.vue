@@ -9,7 +9,7 @@
         <!-- 用户登录信息 -->
         <div class="user-info">
             <Avatar icon="ios-person" size="large" />
-            <span class="username">{{$store.getters.getUserInfo.realName}}</span> 丨
+            <span class="username">user-name</span> 丨
             <a href="http://admin.eebbk.com/webadmin-cas/logout" class="logout">退出</a>
         </div>
     </div>

@@ -7,13 +7,13 @@
                     <Submenu :name="menu.id" :key="index">
                         <template slot="title">
                             <Icon :type="menu.icon" />
-                            {{ menu.name }}
+                            menu-name
                         </template>
-                        <MenuItem v-for="(item, index) in menu.children" :key="index" :to="item.to || ''" :name="item.id">{{ item.name }}</MenuItem>
+                        <MenuItem v-for="(item, index) in menu.children" :key="index" :to="item.to || ''" :name="item.id">item-name</MenuItem>
                     </Submenu>
                 </template>
                 <template v-else>
-                    <MenuItem :name="menu.id" :key="index" :to="menu.to || ''">{{ menu.name }}</MenuItem>
+                    <MenuItem :name="menu.id" :key="index" :to="menu.to || ''">menu-name</MenuItem>
                 </template>
             </template>
         </Menu>
