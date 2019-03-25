@@ -4,7 +4,7 @@
         <!-- 系统或者品牌介绍 -->
         <div class="brand">
             <img src="" class="logo" />
-            <span>platform name</span>
+            <span>{{projectName}}</span>
         </div>
         <!-- 用户登录信息 -->
         <div class="user-info">
