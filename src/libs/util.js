@@ -1,7 +1,7 @@
 let util = {};
 
 util.title = function(env) {
-    let title = {{projectName}};
+    let title = '{{projectName}}';
     window.document.title = title;
 };
 
